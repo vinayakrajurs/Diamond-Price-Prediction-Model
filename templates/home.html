@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diamonds Price Predictor</title>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+
+    <body>
+        <div id="title_holder">
+            <h1>Acquire the perfect price for your precious gem right here</h1>
+            <h3 style="text-align: center;">*Price predicted is in US Dollars</h3>
+        </div>
+
+        <form action="{% url 'result' %}">
+
+            {% csrf_token %}
+            <p class="categories">Carat: <input class="input_field" type="text" required name="carat"></p> <br> <br>
+            <p class="categories">Width: <input class="input_field" type="text" required name="width"></p> <br> <br>
+            <p class="categories">Height: <input class="input_field" type="text" required name="height"></p> <br> <br>
+            <p class="categories">Thickness: <input class="input_field" type="text" required name="thickness"></p> <br>
+            <br>
+
+            <input id="submit_button" type="submit" name="submit" value="Submit">
+        </form>
+    </body>
+
+</html>

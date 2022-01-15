@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Result</title>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+
+    <body>
+        <div id="title_holder" style="height: 100%; padding: 15%">
+            <h1 style="font-size: 54px;">The Perfect Price is: </h1>
+            <h1 style="font-size: 45px;">$ {{answer}}</h1>
+            <h5 style="text-align: center;">*Value displayed is the max price. It can be set to as low as 75% of the
+                value predicted</h5>
+        </div>
+
+    </body>
+
+</html>
