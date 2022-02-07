@@ -1,7 +1,7 @@
 # Diamond-Price-Prediction-Model
 
 # Motivation:
-The main purpose of the Expert System is to replicate knowledge and skills of human experts in a particular area, and then to use this knowledge to solve problems without human intervention. The aim of this project was to implement all the knowledge gained from this workshop into an actual working model. The idea behind choosing  the diamond price predictor model was that the dataset consisted of float values and was relatively easy to understand and implement. 
+The main purpose of the Expert System is to replicate knowledge and skills of human experts in a particular area, and then to use this knowledge to solve problems without human intervention.The idea behind choosing  the diamond price predictor model was that the dataset consisted of float values and was relatively easy to understand and implement. 
 
 # Procedure:
 1. We started off by searching for datasets on kaggle and other sources on the net. 
