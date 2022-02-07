@@ -11,7 +11,7 @@ The main purpose of the Expert System is to replicate knowledge and skills of hu
 5. We came up with the initial draft of the model using Keras Sequential Model and tensorflow and realised that the features required were Carat, Length, Width and Thickness.
 6. This Model had some complications and wasn’t perfect as it had a very high MAE (mean absolute error) value.
 7. Through implementing feature crosses, we were able to bring down the MAE value significantly.
-8. Once the model was trained, we loaded the different weights onto the website which was built using Django architecture.
+8. Website which was built using Django architecture.
 9. The predictions given by the model indicates the highest possible price for that particular diamond. 
 
 # Drive Link (Video): 
